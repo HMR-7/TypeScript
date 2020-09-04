@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下棋游戏</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 游戏面板（棋盘） -->
+        <div id="bord" class="game-board x">
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+        </div>
+        <!-- 游戏获胜信息面板 -->
+        <div id="message" class="game-message">
+            <p id="winner">x 赢了！</p>
+            <button id="restart">重新开始</button>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
