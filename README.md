@@ -9,7 +9,7 @@
 | store    | 全局管理器配置文件  | 单元格内容 |
 | utils    | 全局公共方法库     | 单元格内容 |
 
-<h1>此文件为utils.js文件的公共类方法</h1>
+<!-- <h1>此文件为utils.js文件的公共类方法</h1>
 <h3>如何使用？</h3>
 
 **在class.js中抛出类**
@@ -29,4 +29,4 @@ export class className {
 ``` 
 
 import { className } from "./class"; 
-```
+``` -->
